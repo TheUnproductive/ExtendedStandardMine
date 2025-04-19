@@ -1,0 +1,10 @@
+{
+  "Name": "ExtendedStandardMine",
+  "Author": "TheUnproductive",
+  "Version": "0.0.1",
+  "Description": "A mod to add more floors to the standard mine.",
+  "UniqueID": "TheUnproductive.ExtendedStandardMine",
+  "EntryDll": "ExtendedStandardMine.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [  ]
+}

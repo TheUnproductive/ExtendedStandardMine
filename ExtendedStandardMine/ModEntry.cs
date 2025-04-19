@@ -16,7 +16,7 @@ namespace ExtendedStandardMine
         {
             I18n.Init(helper.Translation);
             helper.Events.GameLoop.GameLaunched += this.OnGameLaunched;
-            this.Monitor.Log($"ExtendedStandard Mine loaded successfully. :)", LogLevel.Info);
+            this.Monitor.Log($"ExtendedStandardMine loaded successfully. :)", LogLevel.Info);
         }
 
         private void OnGameLaunched(object sender, EventArgs e)
