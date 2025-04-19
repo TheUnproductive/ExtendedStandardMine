@@ -14,6 +14,7 @@ namespace ExtendedStandardMine
         private ModConfig _config;
         public override void Entry(IModHelper helper)
         {
+            I18n.Init(helper.Translation);
             helper.Events.GameLoop.GameLaunched += this.OnGameLaunched;
             this.Monitor.Log($"ExtendedStandard Mine loaded successfully. :)", LogLevel.Info);
         }
